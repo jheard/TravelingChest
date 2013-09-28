@@ -8,8 +8,8 @@ import com.birdsnesttech.travelingchest.blocks.ModBlocks;
 import com.birdsnesttech.travelingchest.items.ModItems;
 import com.birdsnesttech.travelingchest.items.ItemBlocks.ItemBlockTravelingChest;
 import com.birdsnesttech.travelingchest.lib.Config;
-import com.birdsnesttech.travelingchest.lib.LocalizationHandler;
 import com.birdsnesttech.travelingchest.lib.Strings;
+import com.birdsnesttech.travelingchest.lib.i8ln.LocalizationHandler;
 import com.birdsnesttech.travelingchest.proxy.CommonProxy;
 
 import cpw.mods.fml.common.Mod;
@@ -30,7 +30,7 @@ public class TravelingChest {
 	@Instance("TravelingChest")
 	public static TravelingChest instance;
 
-	@SidedProxy(clientSide = "com.birdsnesttech.travelingchest.core.proxy.ClientProxy", serverSide = "com.birdsnesttech.travelingchest.core.proxy.CommonProxy")
+	@SidedProxy(clientSide = "com.birdsnesttech.travelingchest.proxy.ClientProxy", serverSide = "com.birdsnesttech.travelingchest.proxy.CommonProxy")
 	public static CommonProxy proxy;
 
 	@EventHandler
@@ -67,9 +67,6 @@ public class TravelingChest {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.travelChest, 1), "BLB",
 				"LCL", "BLB", 'L', TFCItems.TerraLeather, 'B',
 				TFCItems.BrassSheet, 'C', Block.chest);
-		// MinecraftForge.EVENT_BUS.register(new EventExtraHandler());
-		// MinecraftForge.EVENT_BUS.register(new EntityLivingHandler());
-		// proxy.registerTickHandlers();
 	}
 
 }

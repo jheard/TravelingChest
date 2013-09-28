@@ -1,4 +1,4 @@
-package com.birdsnesttech.travelingchest.lib;
+package com.birdsnesttech.travelingchest.lib.i8ln;
 
 import cpw.mods.fml.common.registry.LanguageRegistry;
 

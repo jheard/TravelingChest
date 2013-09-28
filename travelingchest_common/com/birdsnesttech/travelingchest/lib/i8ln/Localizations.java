@@ -1,4 +1,4 @@
-package com.birdsnesttech.travelingchest.lib;
+package com.birdsnesttech.travelingchest.lib.i8ln;
 
 public class Localizations {
 
