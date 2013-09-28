@@ -1,0 +1,16 @@
+[
+{
+  "modid" : "TravelingChest",
+  "name" : "TravelingChest",
+  "url" : "",
+  "authors": [
+    "spccrow"
+  ],
+  "description": "A traveling chest retains it's inventory when broken.",
+  "logoFile" : "tba",
+  "updateUrl" : "tba",
+  "parent" : "",
+  "screenshots": [
+  ]
+}
+]
