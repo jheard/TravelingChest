@@ -4,10 +4,9 @@
   "name" : "TravelingChest",
   "url" : "",
   "authors": [
-    "spccrow",
-    
+    "spccrow"    
   ],
-  "description": "A traveling chest retains it's inventory when broken./nThanks to Emris for help with rendering and textures ",
+  "description": "A traveling chest retains it's inventory when broken.Thanks to Emris for help with rendering and textures.",
   "logoFile" : "tba",
   "updateUrl" : "tba",
   "parent" : "",

@@ -21,7 +21,7 @@ public class Config {
 		travelChestID = config.getBlock("travelChest", travelChestID).getInt();
 
 		//Modifications
-		breakChance = config.get("General","Chance of travel chest breaking", breakChance).getInt(50);
+		breakChance = config.get("General","Chance of travel chest breaking out of 1000", breakChance).getInt(50);
 		
 		config.save();
 	}
