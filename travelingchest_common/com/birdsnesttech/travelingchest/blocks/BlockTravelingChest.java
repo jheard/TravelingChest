@@ -151,7 +151,7 @@ public class BlockTravelingChest extends BlockChest {
 
        		nbt.setTag("Items", nbttaglist);
 			is.setTagCompound(nbt);
-			EntityItem ei = new EntityItem(world,i,j,k,is);
+			EntityItem ei = new EntityItem(world,i+0.5F,j+0.5F,k+0.5F,is);
 			world.spawnEntityInWorld(ei);
 
 			for(int s = 0; s < te.getSizeInventory(); ++s) {
